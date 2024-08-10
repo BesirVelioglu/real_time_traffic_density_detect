@@ -3,7 +3,7 @@ import numpy as np
 from ultralytics import YOLO
 
 # Load the best fine-tuned YOLOv8 model
-best_model = YOLO('C:/Staj-projects/trafic_detect/best.pt')
+best_model = YOLO('./best.pt')
 
 # Define the threshold for considering traffic as heavy
 heavy_traffic_threshold = 10
